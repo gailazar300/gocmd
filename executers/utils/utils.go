@@ -68,7 +68,7 @@ func GetArtifactoryApiUrl(repoName string, details auth.ServiceDetails) (string,
 	if username != "" && password != "" {
 		rtUrl.User = url.UserPassword(username, password)
 	}
-	rtUrl.Path += "api/go/" + repoName
+	rtUrl.Path += repoName
 	return rtUrl.String(), nil
 }
 

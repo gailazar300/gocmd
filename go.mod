@@ -9,4 +9,4 @@ require (
 	github.com/stretchr/testify v1.6.1
 )
 
-// replace github.com/jfrog/jfrog-client-go => github.com/jfrog/jfrog-client-go v0.20.3-0.20210330122654-dd4b12664384
+replace github.com/jfrog/jfrog-client-go => github.com/gailazar300/jfrog-client-go v0.18.1-0.20210524150650-af3726fee5c2
